@@ -1,24 +1,31 @@
-export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
-};
+"use client"; 
+
+// export const metadata = {
+//   title: "Integreat - AI-Powered Business Solutions",
+//   description: "Transform your business with AI-driven automation and intelligent solutions",
+// };
 
 import PageIllustration from "@/components/page-illustration";
-import Hero from "@/components/hero-home";
-import Workflows from "@/components/workflows";
-import Features from "@/components/features";
-import Testimonials from "@/components/testimonials";
-import Cta from "@/components/cta";
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+import ProcessSection from "@/components/ProcessSection";
+import PricingSection from "@/components/PricingSection";
+import ContactSection from "@/components/ContactSection";
+import FooterSection from "@/components/FooterSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import MetaHead from "@/components/MetaHead";
 
 export default function Home() {
   return (
     <>
-      <PageIllustration />
-      <Hero />
-      <Workflows />
-      <Features />
-      <Testimonials />
-      <Cta />
+      <MetaHead />
+      <HeroSection />
+      <AboutSection />
+      <ProcessSection />
+      <PricingSection />
+      <TestimonialsSection />
+      <ContactSection />
+      <FooterSection />
     </>
   );
 }
