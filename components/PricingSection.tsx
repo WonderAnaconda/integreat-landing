@@ -63,7 +63,7 @@ export default function PricingSection() {
                   <div className="mb-4">
                     <div className="mb-2">
                       <span className="text-3xl font-bold text-white">
-                        €{plan.setupFee}
+                        from €{plan.setupFee}
                       </span>
                       <span className="text-gray-400 text-sm ml-1">setup</span>
                     </div>

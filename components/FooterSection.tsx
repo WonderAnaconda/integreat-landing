@@ -41,11 +41,21 @@ export default function FooterSection() {
             <span className="hidden sm:block text-gray-600">|</span>
 
             <a
+              href="/legal"
+              className="hover:text-gray-300 transition-colors"
+            >
+              Legal Notice
+            </a>
+
+            <span className="hidden sm:block text-gray-600">|</span>
+
+            <a
               href={`mailto:${copy.footer.email}`}
               className="text-gray-300 hover:text-white transition-colors"
             >
               {copy.footer.email}
             </a>
+            
           </div>
 
           {/* Copyright */}

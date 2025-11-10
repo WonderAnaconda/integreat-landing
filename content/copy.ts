@@ -1,7 +1,7 @@
 export const copy = {
     // Hero Section
     hero: {
-      title: "AI Systems That Work for You — in 7 Days",
+      title: "AI Systems That Work for You",
       subtitle: "We integrate AI into your business — automating bookings, messages, and customer handling to save time and boost conversions.",
       primaryCta: "Get Started With Us",
       secondaryCta: "See How It Works",
@@ -12,7 +12,7 @@ export const copy = {
     // About Section
     about: {
       title: "Who We Are",
-      description1: "Integreat helps small and medium-sized businesses automate customer communication, booking management, and lead handling with AI — without complex development or long timelines.",
+      description1: "Integreat helps businesses automate customer communication, booking management, lead handling and workflow automation with AI — without complex development or long timelines.",
       description2: "Founded by Daniel Kretschmer in Malta, Integreat focuses on fast, reliable AI integrations that deliver measurable results: faster responses, more bookings, and less admin — all in under a week.",
       cta: "Explore Our Process",
       ctaLink: "#process"
@@ -35,7 +35,7 @@ export const copy = {
         },
         {
           number: "03",
-          title: "Go Live in 7 Days",
+          title: "Go Live in",
           description: "Your integration is fully tested, launched, and handed over with a short training call. Then we maintain it with a simple monthly retainer."
         }
       ]
@@ -56,7 +56,7 @@ export const copy = {
             "Optional basic booking connection (calendar or form)",
             "Automated confirmation messages",
             "Testing and 1h handover session",
-            "Delivery in 7 days"
+            "Fast and reliable delivery"
           ],
           maintenanceFeatures: [
             "Monthly performance check",
@@ -77,7 +77,7 @@ export const copy = {
             "Integrated booking and CRM sync",
             "Automated confirmations, reminders, and follow-ups",
             "Lead capture connected to CRM or mailing list",
-            "Delivery in 7 days + 1h onboarding session"
+            "Fast and reliable delivery + 1h onboarding session"
           ],
           maintenanceFeatures: [
             "Monthly system monitoring and optimization",
@@ -99,7 +99,7 @@ export const copy = {
             "Post-visit review and feedback flows",
             "Optional voice call automation for bookings",
             "Analytics dashboard and reporting",
-            "Delivery in 7 days + in-depth onboarding session"
+            "Fast and reliable delivery + in-depth onboarding session"
           ],
           maintenanceFeatures: [
             "Weekly monitoring across all channels",
@@ -176,7 +176,7 @@ export const copy = {
   
     // Contact Section
     contact: {
-      title: "Let’s Automate Your Business — in 7 Days",
+      title: "Let’s Automate Your Business",
       subtitle: "Tell us your goals, and we’ll design an AI integration that runs reliably, improves conversions, and saves you time every day.",
       primaryCta: "Get Started",
       secondaryCta: "Email Us",
@@ -189,7 +189,6 @@ export const copy = {
       companyName: "Integreat",
       description: "Integreat brings AI into real businesses — automating bookings, communication, and workflows to run smarter, faster, and more efficiently.",
       email: "hello@integreat.ing",
-      phone: "+356 9912 1443",
       copyright: "© 2025 Integreat AI Solutions & Consulting. All rights reserved. Designed for real business impact."
     }
   };

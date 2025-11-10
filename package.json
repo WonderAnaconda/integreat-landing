@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
+    "postbuild": "node inject-meta-tags.js",
     "start": "next start",
     "export": "next export",
     "lint": "next lint",
